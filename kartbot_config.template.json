@@ -1,0 +1,19 @@
+{
+    "prefix": "k!",
+    "description": "Bot do SRB2Kart-Brasil",
+    "token": "",
+
+    "screen_name": "server",
+    "server_folder_path": "/root/.srb2kart/",
+    "server_executable_name": "srb2kart",
+    "server_executable_args": "-dedicated",
+    "server_max_players": 16,
+    "ip_message": "127.0.0.1",
+    "permission_error_message": "Apenas membros com os cargos ADM, Webmaster ou Helper podem usar esse comando",
+    "helper_roles": ["Helper"],
+    "admin_roles": ["ADM", "Webmaster"],
+
+    "enable_dkartconfig_corruption_workaround": true,
+    "backup_dkartconfig_path": "/root/.srb2kart/dkartconfig.cfg.bak",
+    "dkartconfig_path": "/root/.srb2kart/dkartconfig.cfg"
+}
